@@ -1,0 +1,177 @@
+.box{
+    /* background-color: red; */
+
+    border: 1px solid black;
+
+    width: 400px;
+    height: 200px;
+
+    font-size: 25px;
+    color: red;
+    font-family: "Micosoft YaHei";
+    line-height: 30px;
+
+    margin: auto;
+    padding: 10px;
+
+    /* text-align: left; */
+    text-indent: 2em;
+
+    overflow: auto;
+}
+
+.box:hover{
+    cursor: pointer;
+}
+
+.a1{
+    color: black;
+    font-size: 2em;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.a1:hover{
+    color: red;
+    text-decoration: underline;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.table{
+    width: 708px;
+    height: 248px;
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+.table td,.table th{
+    border: 1px solid black;
+    text-indent: 10px;
+}
+
+.table th{
+    text-align: left;
+    background-color: #EBFAF3;
+    line-height: 35px;
+}
+
+.table img{
+    float: left;
+}
+
+/* 注册表单 */
+textarea{
+    /* 文本域禁止调整尺寸 */
+    resize: none;
+}
+
+
+/* 搜索表单 */
+.search_form{
+    /* background-color: chocolate; */
+    width: 602px;
+    height: 42px;
+    margin: 20px auto 0;
+}
+
+.search_form .search_text{
+    width: 500px;
+    height: 40px;
+    padding: 0px;
+    border: 1px solid #10ad10;
+    text-indent: 10px;
+    /* 清除文本输入框的边框高亮效果 */
+    outline: none;
+    float: left;
+}
+
+.search_form .search_btn{
+    background-color: #10ad10;
+    border: 0px;
+    padding: 0px;
+    width: 100px;
+    height: 42px;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+    /* 多个行内元素排列，代码换行会导致行内元素之间产生空隙，而且，如果行内元素中的文字大小不一致，默认是以文字底部对齐，此二种问题可用浮动清除。 */
+    float: left;
+    /* 解决行内元素间距问题：1，代码不换行 2，对父元素设置 font-size：0px，自身设置具体的 font-size */
+}
+
+
+/* 导航条nav */
+.nav{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    width: 80%;
+    border: 1px solid lightgray;
+    margin: 50px auto 0;
+    height: 40px;
+    text-align: center;  
+    font-size: 0px;
+}
+
+.nav li{
+    display: inline-block;
+    font-size: 16px;
+    border-right: 1px solid lightgray;
+    margin-top: 7px;
+}
+
+.nav li a{
+    color: black;
+    text-decoration: none;
+    display: inline-block;
+    height: 26px;
+    line-height: 26px;
+    margin: 0px 78px;
+}
+
+.nav li:last-of-type{
+    border-right: none;
+}
+
+.nav li a:hover{
+    color: red;
+}
+
+/* 页码分页 */
+.page{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    border: 1px solid lightgray;
+    width: 80%;
+    height: 40px;
+    margin: 50px auto 0;
+    text-align: center;
+    font-size: 0px;
+}
+
+.page li{
+    display: inline-block;
+    font-size: 12px;
+}
+
+.page li a{
+    background-color: gold;
+    color: black;
+    text-decoration: none;
+    font-family: "Microsoft Yahei";
+    display: inline-block;
+    height: 26px;
+    line-height: 26px;
+    margin: 7px 5px;
+    padding: 0px 7px;
+}
+
+.page li a:hover{
+    background-color: red;
+}
